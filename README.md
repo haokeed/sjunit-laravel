@@ -1,17 +1,29 @@
-<h1 align="center"> sjunit-laravel </h1>
+<h1 align="center"> haokeed/sjunit-laravel </h1>
 
-<p align="center"> A simplified version of the laravel framework unit test.</p>
+<p align="center"> 
+这里是对框架的介绍
+</p>
 
 
 ## Installing
 
 ```shell
-$ composer require haokeed/sjunit-laravel -vvv
+$ composer require haokeed/sjunit-laravel
 ```
 
 ## Usage
 
-TODO
+### 配置要求
+laravel >= 5.5 && php >= 7.1.3
+
+### 配置方式
+5.5手动配置laravel对于sjunit服务放到config/app.php中
+
+解释路由 src/Http/routes.php
+```php
+Route::get("/","SJunitController@index");
+Route::post("/","SJunitController@store")->name("junit.store");
+```
 
 ## Contributing
 
