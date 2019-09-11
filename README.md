@@ -1,8 +1,6 @@
-<h1 align="center"> haokeed/sjunit-laravel </h1>
+## haokeed/sjunit-laravel
 
-<p align="center"> 
 这里是对框架的介绍
-</p>
 
 
 ## Installing
